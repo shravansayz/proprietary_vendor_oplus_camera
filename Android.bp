@@ -9,7 +9,7 @@ android_app_import {
 	name: "OnePlusGallery",
 	owner: "oneplus",
 	apk: "proprietary/product/priv-app/OnePlusGallery/OnePlusGallery.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -27,7 +27,7 @@ android_app_import {
 	name: "OplusCamera",
 	owner: "oneplus",
 	apk: "proprietary/product/priv-app/OplusCamera/OplusCamera.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
