@@ -6,5 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/camera
 
 PRODUCT_PACKAGES += \
+    OplusAppPlatform \
     OplusCamera \
-    OnePlusGallery
+    OppoGallery2
