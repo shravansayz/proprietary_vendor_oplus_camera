@@ -8,4 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     OplusAppPlatform \
     OplusCamera \
-    OnePlusGallery
+    OplusCameraTarget \
+    OnePlusGallery \
+    OnePlusGalleryTarget
