@@ -31,9 +31,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "OppoGallery2",
+	name: "OnePlusGallery",
 	owner: "oneplus",
-	apk: "proprietary/system_ext/priv-app/OppoGallery2/OppoGallery2.apk",
+	apk: "proprietary/system_ext/priv-app/OnePlusGallery/OnePlusGallery.apk",
 	overrides: ["Photos","Gallery2"],
 	certificate: "platform",
 	privileged: true,
