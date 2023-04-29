@@ -1,0 +1,3 @@
+# Camera
+ro.camera.                          u:object_r:exported_system_prop:s0
+persist.assert.panic.camera         u:object_r:exported_system_prop:s0
