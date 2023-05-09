@@ -9,7 +9,7 @@ android_app_import {
 	name: "OppoGallery2",
 	owner: "oplus",
 	apk: "proprietary/system_ext/priv-app/OppoGallery2/OppoGallery2.apk",
-	overrides: ["Gallery2", "Photos"],
+	overrides: ["Gallery2"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
