@@ -1,3 +1,7 @@
+# Init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/init.oplus.camera.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.camera.rc
+
 # Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/oplus_camera_default_grant_permissions_list.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml \
@@ -20,7 +24,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.camera.privapp.list=com.oplus.camera \
     ro.com.google.lens.oem_camera_package=com.oplus.camera \
     ro.com.google.lens.oem_image_package=com.oneplus.gallery
-    
+
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
     vendor/oplus/camera/sepolicy/vendor
