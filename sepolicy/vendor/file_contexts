@@ -11,6 +11,7 @@
 /(odm|vendor/odm)/lib64/libCaptureBokeh\.so                                       u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libCipo_awb\.so                                           u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libc\+\+_shared\.so                                       u:object_r:same_process_hal_file:s0
+/(odm|vendor/odm)/lib64/libCNamaSDK_vendor\.so                                    u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libCS\.so                                                 u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libcvface_api\.so                                         u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libDeVIS\.so                                              u:object_r:same_process_hal_file:s0
@@ -20,6 +21,7 @@
 /(odm|vendor/odm)/lib64/libFilterWrapper\.so                                      u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libmotionblur\.so                                         u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libmpbase\.so                                             u:object_r:same_process_hal_file:s0
+/(odm|vendor/odm)/lib64/libNamaWrapper\.so                                        u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libOGLManager\.so                                         u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libOPAlgoCamFaceBeautyCap\.so                             u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libOPLUS_SCPortrait\.so                                   u:object_r:same_process_hal_file:s0
@@ -80,6 +82,7 @@
 /(odm|vendor/odm)/lib64/libFaceBeautyPre\.so                                      u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libFaceDistortionCorrection\.so                           u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libhyperlapse\.so                                         u:object_r:same_process_hal_file:s0
+/(odm|vendor/odm)/lib64/libFaceWhiten\.so                                         u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libstblur_api\.so                                         u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libstblur_capture_api\.so                                 u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libstdc\+\+\.so                                           u:object_r:same_process_hal_file:s0
@@ -95,6 +98,7 @@
 /(odm|vendor/odm)/lib64/libVDPostureDetection\.so                                 u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libVDSuperPhotoAPI\.so                                    u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libVDUpScale\.so                                          u:object_r:same_process_hal_file:s0
+/(odm|vendor/odm)/lib64/libXDocProcessSDK\.so                                     u:object_r:same_process_hal_file:s0
 /(vendor|odm)/lib/rfsa/adsp(/.*)?                                                 u:object_r:same_process_hal_file:s0
 /(vendor|system/vendor)/dsp(/.*)?                                                 u:object_r:adsprpcd_file:s0
 /(vendor|odm|vendor/odm)/lib64/libarcsoft_(.*)?\.so                               u:object_r:same_process_hal_file:s0

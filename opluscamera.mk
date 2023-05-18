@@ -44,5 +44,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     vendor/oplus/camera/sepolicy/private
 
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
+    vendor/oplus/camera/sepolicy/public
+
 $(call inherit-product, vendor/oplus/camera/camera-vendor.mk)
 
