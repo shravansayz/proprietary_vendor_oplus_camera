@@ -29,6 +29,14 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.lens.oem_camera_package=com.oplus.camera \
     ro.com.google.lens.oem_image_package=com.oneplus.gallery
 
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.oplus.camera.video_beauty.prefix=oplus.video.beauty. \
+    ro.oplus.camera.video.beauty.switch=oplus.switch.video.beauty \
+    ro.oplus.camera.speechassist=true \
+    ro.oplus.system.camera.flashlight=com.oplus.motor.flashlight \
+    ro.oplus.system.camera.name=com.oplus.camera \
+    ro.oplus.system.gallery.name=com.oneplus.gallery
+
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
     vendor/oplus/camera/sepolicy/vendor
