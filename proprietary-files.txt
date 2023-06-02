@@ -23,7 +23,7 @@ my_product/lib64/libcolorx-loader.so:system_ext/lib64/libcolorx-loader.so
 my_product/lib64/libcolorx.so:system_ext/lib64/libcolorx.so
 my_product/lib64/libcoolex.so:system_ext/lib64/libcoolex.so
 my_product/lib64/libextendfile.so:system_ext/lib64/libextendfile.so
-my_product/lib64/libjnisingleblur_api.so:system_ext/lib64/libjnisingleblur_api.so
+my_product/lib64/libjnisingleblur_api.so:system_ext/lib64/libjnisingleblur_api.so|79a415519eb8ca6cd882dee56943ff804ceab8f5
 my_product/lib64/libjnistblur_api.so:system_ext/lib64/libjnistblur_api.so
 my_product/lib64/libmpbase.so:system_ext/lib64/libmpbase.so
 my_product/lib64/libsingle_camera_bokeh_native.so:system_ext/lib64/libsingle_camera_bokeh_native.so
