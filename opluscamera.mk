@@ -2,6 +2,11 @@
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.oplus.camera.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.camera.rc
 
+# Licenses
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/licenses/license_release.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.lic \
+    $(LOCAL_PATH)/configs/licenses/license_release.license:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.license
+
 # Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/oplus_camera_default_grant_permissions_list.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml \
