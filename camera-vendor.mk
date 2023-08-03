@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/camera/proprietary/system_ext/lib64/libpenguin.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpenguin.so
 
 PRODUCT_PACKAGES += \
-    OppoGallery2 \
     OplusCamera \
     OplusAppPlatform \
     oplus-support-wrapper \

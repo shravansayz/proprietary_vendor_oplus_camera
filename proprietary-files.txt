@@ -2,8 +2,7 @@
 ## are from Oneplus 9RT (MT2111_11.F.15).
 
 # Camera
-my_bigball/priv-app/OppoGallery2/OppoGallery2.apk:system_ext/priv-app/OppoGallery2/OppoGallery2.apk;OVERRIDES=Gallery2
-my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk;OVERRIDES=Aperture,Camera2,GoogleCameraGo
+my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk;OVERRIDES=Aperture,Camera2,GoogleCameraGo|4ce908b4dd5de96b2e22148bb629bde1c65ffdd1
 my_product/lib64/libAPSClient-cmd-jni.so:system_ext/lib64/libAPSClient-cmd-jni.so
 my_product/lib64/libAPSClient-jni.so:system_ext/lib64/libAPSClient-jni.so
 my_product/lib64/libAncFilter_jni.so:system_ext/lib64/libAncFilter_jni.so

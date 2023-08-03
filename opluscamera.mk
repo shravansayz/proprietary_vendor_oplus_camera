@@ -27,7 +27,7 @@ TARGET_USES_OPLUS_CAMERA := true
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.camera.privapp.list=com.oplus.camera \
     ro.com.google.lens.oem_camera_package=com.oplus.camera \
-    ro.com.google.lens.oem_image_package=com.oneplus.gallery
+    ro.com.google.lens.oem_image_package=com.google.android.apps.photos
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.oplus.camera.video_beauty.prefix=oplus.video.beauty. \
@@ -35,7 +35,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.oplus.camera.speechassist=true \
     ro.oplus.system.camera.flashlight=com.oplus.motor.flashlight \
     ro.oplus.system.camera.name=com.oplus.camera \
-    ro.oplus.system.gallery.name=com.oneplus.gallery
+    ro.oplus.system.gallery.name=com.google.android.apps.photos
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
