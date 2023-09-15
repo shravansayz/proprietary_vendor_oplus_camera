@@ -21,15 +21,13 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/camera/proprietary/system_ext/lib64/libXDocProcessSDK-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libXDocProcessSDK-jni.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/libXDocProcessSDK.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libXDocProcessSDK.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/libYTCommon.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libYTCommon.so \
-    vendor/oplus/camera/proprietary/system_ext/lib64/libcolorx-loader.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcolorx-loader.so \
-    vendor/oplus/camera/proprietary/system_ext/lib64/libcolorx.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcolorx.so \
-    vendor/oplus/camera/proprietary/system_ext/lib64/libcoolex.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcoolex.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/libextendfile.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libextendfile.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/libjnisingleblur_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjnisingleblur_api.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/libjnistblur_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjnistblur_api.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmpbase.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/libsingle_camera_bokeh_native.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsingle_camera_bokeh_native.so \
     vendor/oplus/camera/proprietary/system_ext/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml \
+    vendor/oplus/camera/proprietary/odm/lib64/libXDocProcessSDK.so:$(TARGET_COPY_OUT_ODM)/lib64/libXDocProcessSDK.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/libHeifEncoderWrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifEncoderWrapper.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/libNativeWinBuffExchange.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libNativeWinBuffExchange.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/liboplusheifwriter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusheifwriter.so \
