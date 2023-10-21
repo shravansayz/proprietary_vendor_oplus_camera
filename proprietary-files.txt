@@ -1,8 +1,8 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Realme GT2 (RMX3312_13.1.0.1411(EX01)).
+## are from Realme GT2 (RMX3312_13.1.0.1630(EX01)).
 
 # Camera
-my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk;OVERRIDES=Aperture,Camera2,GoogleCameraGo|66e732e8bf89428fd4943141cfb62ffe83bf9050
+my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk;OVERRIDES=Aperture,Camera2,GoogleCameraGo|77300ba317ac7a697ad2ca00d7199c0a6b837a58
 my_product/lib64/libAPSClient-cmd-jni.so:system_ext/lib64/libAPSClient-cmd-jni.so
 my_product/lib64/libAPSClient-jni.so:system_ext/lib64/libAPSClient-jni.so
 my_product/lib64/libAncFilter_jni.so:system_ext/lib64/libAncFilter_jni.so
