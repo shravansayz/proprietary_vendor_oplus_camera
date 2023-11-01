@@ -47,5 +47,7 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     vendor/oplus/camera/sepolicy/public
 
-$(call inherit-product, vendor/oplus/camera/camera-vendor.mk)
+# Video
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
 
+$(call inherit-product, vendor/oplus/camera/camera-vendor.mk)
