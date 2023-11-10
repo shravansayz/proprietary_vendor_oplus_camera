@@ -2,7 +2,7 @@
 ## are from OnePlus 9RT (MT2111_14.0.0.54(EX01)).
 
 # Camera
-my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk;OVERRIDES=Aperture,Camera2,GoogleCameraGo|ea889554913724674852c3a5040ad60e8e6338d3
+my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk;OVERRIDES=Camera2,GoogleCameraGo|ea889554913724674852c3a5040ad60e8e6338d3
 my_product/lib64/libAPSClient-cmd-jni.so:system_ext/lib64/libAPSClient-cmd-jni.so
 my_product/lib64/libAPSClient-jni.so:system_ext/lib64/libAPSClient-jni.so
 my_product/lib64/libAncFilter_jni.so:system_ext/lib64/libAncFilter_jni.so
